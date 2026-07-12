@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Planta de Beneficiamento — Vila Rica</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="stage">
+    <div class="frame" id="frame">
+      <img src="planta.jpeg" alt="Planta de Beneficiamento" id="planta-img" draggable="false">
+      <div id="overlay"></div>
+    </div>
+  </div>
+
+  <div class="popup" id="popup">
+    <div class="popup-inner" id="popup-inner"></div>
+  </div>
+
+  <button class="filter-toggle" id="filter-toggle" title="Consultar configurações anteriores">
+    <svg viewBox="0 0 24 24" width="18" height="18"><path fill="currentColor" d="M3 5h18v2.2l-7 7.2V21l-4-2v-6.6L3 7.2V5z"/></svg>
+    Histórico
+  </button>
+
+  <div class="filter-panel" id="filter-panel">
+    <div class="filter-panel__head">
+      <span>Configurações anteriores</span>
+      <button class="filter-panel__close" id="filter-close" title="Fechar">&times;</button>
+    </div>
+    <div class="filter-panel__body">
+      <label class="filter-field">
+        <span>Equipamento</span>
+        <select id="filter-nome" autocomplete="off"></select>
+      </label>
+      <label class="filter-field">
+        <span>Data</span>
+        <select id="filter-data" autocomplete="off"></select>
+      </label>
+    </div>
+    <div id="filter-result"></div>
+  </div>
+
+  <script src="positions.js"></script>
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

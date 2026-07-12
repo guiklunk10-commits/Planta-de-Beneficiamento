@@ -1,0 +1,297 @@
+:root {
+  --bg: #14181d;
+  --card-bg: #ffffff;
+  --card-border: #e4e7eb;
+  --text-strong: #1a1f26;
+  --text-muted: #6b7280;
+  --accent: #2f7ac0;
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background: var(--bg);
+  font-family: "Segoe UI", "Inter", Roboto, Arial, sans-serif;
+  overflow: hidden;
+}
+
+.stage {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.frame {
+  position: relative;
+  max-width: 100vw;
+  max-height: 100vh;
+  line-height: 0;
+}
+
+#planta-img {
+  display: block;
+  max-width: 100vw;
+  max-height: 100vh;
+  width: auto;
+  height: auto;
+  user-select: none;
+  pointer-events: none;
+}
+
+#overlay {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+}
+
+.hotspot {
+  position: absolute;
+  background: #ffffff;
+  opacity: 0;
+  cursor: pointer;
+  transition: opacity 0.15s ease;
+}
+
+.hotspot:hover,
+.hotspot.active {
+  opacity: 0.22;
+}
+
+.hotspot.filter-highlight {
+  opacity: 0.55;
+  animation: hotspot-pulse 1.1s ease-in-out infinite;
+}
+
+@keyframes hotspot-pulse {
+  0%, 100% { opacity: 0.35; }
+  50% { opacity: 0.75; }
+}
+
+/* ---------- Popup ---------- */
+
+.popup {
+  position: fixed;
+  z-index: 50;
+  pointer-events: none;
+  opacity: 0;
+  transform: translateY(6px);
+  transition: opacity 0.12s ease, transform 0.12s ease;
+  filter: drop-shadow(0 10px 28px rgba(0, 0, 0, 0.45));
+}
+
+.popup.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.popup-inner {
+  background: var(--card-bg);
+  border-radius: 12px;
+  border: 1px solid var(--card-border);
+  min-width: 260px;
+  max-width: 320px;
+  overflow: hidden;
+}
+
+.eq-card + .eq-card {
+  border-top: 1px solid var(--card-border);
+}
+
+.eq-card__head {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 16px 10px;
+}
+
+.eq-card__dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 3px;
+  flex-shrink: 0;
+}
+
+.eq-card__title {
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--text-strong);
+  letter-spacing: 0.1px;
+}
+
+.eq-card__subtitle {
+  padding: 0 16px 10px;
+  font-size: 12.5px;
+  color: var(--text-muted);
+  margin-top: -6px;
+}
+
+.eq-card__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1px;
+  background: var(--card-border);
+  margin-top: 2px;
+}
+
+.eq-card__cell {
+  background: #fafbfc;
+  padding: 9px 10px;
+  text-align: center;
+}
+
+.eq-card__cell-label {
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+  color: var(--text-muted);
+  margin-bottom: 3px;
+}
+
+.eq-card__cell-value {
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--text-strong);
+  overflow-wrap: anywhere;
+  word-break: break-word;
+  line-height: 1.2;
+}
+
+.eq-card__cell-value--long {
+  font-size: 11.5px;
+}
+
+.eq-card__footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 16px 12px;
+  font-size: 11.5px;
+  color: var(--text-muted);
+}
+
+.eq-card__footer strong {
+  color: var(--text-strong);
+  font-weight: 600;
+}
+
+/* ---------- Filtro de histórico ---------- */
+
+.filter-toggle {
+  position: fixed;
+  top: 18px;
+  left: 18px;
+  z-index: 60;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 16px;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  background: rgba(20, 24, 29, 0.82);
+  color: #f2f4f7;
+  font-size: 13.5px;
+  font-weight: 600;
+  cursor: pointer;
+  backdrop-filter: blur(6px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.35);
+}
+
+.filter-toggle:hover {
+  background: rgba(35, 41, 49, 0.92);
+}
+
+.filter-panel {
+  position: fixed;
+  top: 18px;
+  left: 18px;
+  z-index: 61;
+  width: 320px;
+  max-width: calc(100vw - 36px);
+  background: var(--card-bg);
+  border-radius: 14px;
+  border: 1px solid var(--card-border);
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.45);
+  display: none;
+  overflow: hidden;
+}
+
+.filter-panel.open {
+  display: block;
+}
+
+.filter-panel__head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 16px;
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--text-strong);
+  border-bottom: 1px solid var(--card-border);
+}
+
+.filter-panel__close {
+  border: none;
+  background: none;
+  font-size: 20px;
+  line-height: 1;
+  color: var(--text-muted);
+  cursor: pointer;
+  padding: 2px 6px;
+}
+
+.filter-panel__close:hover {
+  color: var(--text-strong);
+}
+
+.filter-panel__body {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 14px 16px;
+}
+
+.filter-field {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+  color: var(--text-muted);
+  font-weight: 600;
+}
+
+.filter-field select {
+  font-family: inherit;
+  font-size: 13.5px;
+  font-weight: 500;
+  text-transform: none;
+  letter-spacing: normal;
+  color: var(--text-strong);
+  padding: 9px 10px;
+  border-radius: 8px;
+  border: 1px solid var(--card-border);
+  background: #fafbfc;
+  cursor: pointer;
+}
+
+#filter-result {
+  border-top: 1px solid var(--card-border);
+}
+
+#filter-result:empty {
+  border-top: none;
+}
+
+#filter-result .eq-card__subtitle {
+  margin-top: 0;
+}
