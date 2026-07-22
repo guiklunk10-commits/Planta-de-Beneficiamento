@@ -141,6 +141,10 @@ html, body {
   margin-top: 2px;
 }
 
+.eq-card__grid--single {
+  grid-template-columns: 1fr;
+}
+
 .eq-card__cell {
   background: #fafbfc;
   padding: 9px 10px;

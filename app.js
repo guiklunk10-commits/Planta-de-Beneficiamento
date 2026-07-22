@@ -33,6 +33,42 @@
     return `<div class="${cls}">${s}</div>`;
   }
 
+  // Britador: mostra so "Abertura" — exceto se o nome contiver "REMCO", caso em
+  // que mostra "Velocidade" no lugar. Peneira (ou tipo desconhecido/fallback
+  // sem nenhum registro): mostra os 3 decks. Regra de negocio pedida pelo usuario.
+  function fieldsGridHtml(card) {
+    const tipo = (card.tipo || "").trim().toLowerCase();
+    if (tipo === "britador") {
+      const isRemco = (card.nome || "").toUpperCase().includes("REMCO");
+      const label = isRemco ? "Velocidade" : "Abertura";
+      const valor = isRemco ? card.velocidade : card.abertura;
+      return `
+        <div class="eq-card__grid eq-card__grid--single">
+          <div class="eq-card__cell">
+            <div class="eq-card__cell-label">${label}</div>
+            ${deckValueHtml(valor)}
+          </div>
+        </div>
+      `;
+    }
+    return `
+      <div class="eq-card__grid">
+        <div class="eq-card__cell">
+          <div class="eq-card__cell-label">1&ordm; Deck</div>
+          ${deckValueHtml(card.deck1)}
+        </div>
+        <div class="eq-card__cell">
+          <div class="eq-card__cell-label">2&ordm; Deck</div>
+          ${deckValueHtml(card.deck2)}
+        </div>
+        <div class="eq-card__cell">
+          <div class="eq-card__cell-label">3&ordm; Deck</div>
+          ${deckValueHtml(card.deck3)}
+        </div>
+      </div>
+    `;
+  }
+
   function buildCardHtml(card, cor) {
     return `
       <div class="eq-card">
@@ -41,20 +77,7 @@
           <span class="eq-card__title">${card.nome}</span>
         </div>
         <div class="eq-card__subtitle">${card.tipoEstagio}</div>
-        <div class="eq-card__grid">
-          <div class="eq-card__cell">
-            <div class="eq-card__cell-label">1&ordm; Deck</div>
-            ${deckValueHtml(card.deck1)}
-          </div>
-          <div class="eq-card__cell">
-            <div class="eq-card__cell-label">2&ordm; Deck</div>
-            ${deckValueHtml(card.deck2)}
-          </div>
-          <div class="eq-card__cell">
-            <div class="eq-card__cell-label">3&ordm; Deck</div>
-            ${deckValueHtml(card.deck3)}
-          </div>
-        </div>
+        ${fieldsGridHtml(card)}
         <div class="eq-card__footer">
           <span>Última atualização</span>
           <strong>${card.data}</strong>
@@ -63,9 +86,16 @@
     `;
   }
 
-  // Cria os hotspots (um <div> recortado no formato exato da peça, via clip-path)
+  // Cria os hotspots (um <div> recortado no formato exato da peça, via clip-path).
+  // Marcadores cujo(s) unico(s) equipamento(s) estao "Desativado" na planilha
+  // ficam sem nenhum EQUIPAMENTOS[num] ativo (array vazio) — nesse caso o
+  // hotspot nao recebe listeners de hover, ou seja, o mouse passa por cima
+  // sem nenhuma reacao.
   NUMEROS.forEach((num) => {
     const pos = POSICOES[num];
+    const cards = EQUIPAMENTOS[num] || [];
+    if (cards.length === 0) return;
+
     const box = bboxAndClip(pos.poly);
     const div = document.createElement("div");
     div.className = "hotspot";
