@@ -122,13 +122,13 @@ const EQUIPAMENTOS = {
     {
       "marcador": "08",
       "nome": "08 - OSM 9x24",
-      "data": "01/07/2026",
+      "data": "24/11/2025",
       "tipo": "Peneira",
       "tipoEstagio": "Peneira · Intermediária",
       "desativado": false,
       "deck1": "-",
-      "deck2": "-",
-      "deck3": "-",
+      "deck2": "14",
+      "deck3": "6",
       "abertura": "-",
       "velocidade": "-"
     }
@@ -167,9 +167,9 @@ const EQUIPAMENTOS = {
     {
       "marcador": "11",
       "nome": "11 - REMCO 800",
-      "tipo": "-",
-      "data": "-",
-      "tipoEstagio": "-",
+      "data": "01/07/2026",
+      "tipo": "Britador",
+      "tipoEstagio": "Britador · Terciário",
       "desativado": false,
       "deck1": "-",
       "deck2": "-",
@@ -416,13 +416,13 @@ const HISTORICO = {
     {
       "marcador": "08",
       "nome": "08 - OSM 9x24",
-      "data": "01/07/2026",
+      "data": "24/11/2025",
       "tipo": "Peneira",
       "tipoEstagio": "Peneira · Intermediária",
       "desativado": false,
       "deck1": "-",
-      "deck2": "-",
-      "deck3": "-",
+      "deck2": "14",
+      "deck3": "6",
       "abertura": "-",
       "velocidade": "-"
     }
@@ -1017,9 +1017,9 @@ const HISTORICO = {
     {
       "marcador": "11",
       "nome": "11 - REMCO 800",
-      "tipo": "-",
-      "data": "-",
-      "tipoEstagio": "-",
+      "data": "01/07/2026",
+      "tipo": "Britador",
+      "tipoEstagio": "Britador · Terciário",
       "desativado": false,
       "deck1": "-",
       "deck2": "-",
