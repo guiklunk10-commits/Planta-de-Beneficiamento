@@ -77,13 +77,13 @@ const EQUIPAMENTOS = {
     {
       "marcador": "05",
       "nome": "05 - Peneira OSM 9x36",
-      "data": "01/07/2026",
+      "data": "22/10/2026",
       "tipo": "Peneira",
       "tipoEstagio": "Peneira · Intermediária",
       "desativado": false,
-      "deck1": "38",
-      "deck2": "19",
-      "deck3": "5",
+      "deck1": "45 / 38",
+      "deck2": "22",
+      "deck3": "6/5/5",
       "abertura": "-",
       "velocidade": "-"
     }
@@ -92,11 +92,11 @@ const EQUIPAMENTOS = {
     {
       "marcador": "06",
       "nome": "06 - OSM 9x24",
-      "data": "24/06/2026",
+      "data": "22/10/2026",
       "tipo": "Peneira",
       "tipoEstagio": "Peneira · Intermediária",
       "desativado": false,
-      "deck1": "38",
+      "deck1": "45",
       "deck2": "17",
       "deck3": "9 / 8",
       "abertura": "-",
@@ -122,13 +122,13 @@ const EQUIPAMENTOS = {
     {
       "marcador": "08",
       "nome": "08 - OSM 9x24",
-      "data": "24/11/2025",
+      "data": "22/10/2026",
       "tipo": "Peneira",
-      "tipoEstagio": "Peneira · Intermediária",
+      "tipoEstagio": "Peneira · Final",
       "desativado": false,
-      "deck1": "-",
+      "deck1": "17",
       "deck2": "14",
-      "deck3": "6",
+      "deck3": "5/5",
       "abertura": "-",
       "velocidade": "-"
     }
@@ -197,13 +197,13 @@ const EQUIPAMENTOS = {
     {
       "marcador": "13",
       "nome": "13 - OSM 9x24",
-      "data": "01/07/2026",
+      "data": "22/10/2026",
       "tipo": "Peneira",
       "tipoEstagio": "Peneira · Final",
       "desativado": false,
-      "deck1": "16",
-      "deck2": "14",
-      "deck3": "5/4",
+      "deck1": "-",
+      "deck2": "-",
+      "deck3": "5/5",
       "abertura": "-",
       "velocidade": "-"
     }
@@ -240,208 +240,6 @@ const EQUIPAMENTOS = {
   ]
 };
 const HISTORICO = {
-  "01 - C125": [
-    {
-      "marcador": "01",
-      "nome": "01 - C125",
-      "data": "01/07/2026",
-      "tipo": "Britador",
-      "tipoEstagio": "Britador · Primário",
-      "desativado": false,
-      "deck1": "-",
-      "deck2": "-",
-      "deck3": "-",
-      "abertura": "150mm",
-      "velocidade": "-"
-    }
-  ],
-  "03 - OC1300": [
-    {
-      "marcador": "03",
-      "nome": "03 - OC1300",
-      "data": "01/07/2026",
-      "tipo": "Britador",
-      "tipoEstagio": "Britador · Secundário",
-      "desativado": false,
-      "deck1": "-",
-      "deck2": "-",
-      "deck3": "-",
-      "abertura": "42mm",
-      "velocidade": "-"
-    }
-  ],
-  "03 - HP4": [
-    {
-      "marcador": "03",
-      "nome": "03 - HP4",
-      "data": "01/07/2026",
-      "tipo": "Britador",
-      "tipoEstagio": "Britador · Terciário",
-      "desativado": false,
-      "deck1": "-",
-      "deck2": "-",
-      "deck3": "-",
-      "abertura": "19mm",
-      "velocidade": "-"
-    }
-  ],
-  "05 - Peneira OSM 9x36": [
-    {
-      "marcador": "05",
-      "nome": "05 - Peneira OSM 9x36",
-      "data": "01/07/2026",
-      "tipo": "Peneira",
-      "tipoEstagio": "Peneira · Intermediária",
-      "desativado": false,
-      "deck1": "38",
-      "deck2": "19",
-      "deck3": "5",
-      "abertura": "-",
-      "velocidade": "-"
-    },
-    {
-      "marcador": "05",
-      "nome": "05 - Peneira OSM 9x36",
-      "data": "09/01/2026",
-      "tipo": "Peneira",
-      "tipoEstagio": "Peneira · Intermediária",
-      "desativado": false,
-      "deck1": "45",
-      "deck2": "22",
-      "deck3": "6/5/5",
-      "abertura": "-",
-      "velocidade": "-"
-    },
-    {
-      "marcador": "05",
-      "nome": "05 - Peneira OSM 9x36",
-      "data": "05/01/2026",
-      "tipo": "Peneira",
-      "tipoEstagio": "Peneira · Intermediária",
-      "desativado": false,
-      "deck1": "45",
-      "deck2": "22",
-      "deck3": "6/6/5",
-      "abertura": "-",
-      "velocidade": "-"
-    },
-    {
-      "marcador": "05",
-      "nome": "05 - Peneira OSM 9x36",
-      "data": "24/11/2025",
-      "tipo": "Peneira",
-      "tipoEstagio": "Peneira · Intermediária",
-      "desativado": false,
-      "deck1": "45",
-      "deck2": "22",
-      "deck3": "6/6/7",
-      "abertura": "-",
-      "velocidade": "-"
-    }
-  ],
-  "09 - REMCO 400": [
-    {
-      "marcador": "09",
-      "nome": "09 - REMCO 400",
-      "data": "01/07/2026",
-      "tipo": "Britador",
-      "tipoEstagio": "Britador · Terciário",
-      "desativado": false,
-      "deck1": "-",
-      "deck2": "-",
-      "deck3": "-",
-      "abertura": "-",
-      "velocidade": "-"
-    }
-  ],
-  "02 - FAÇO": [
-    {
-      "marcador": "02",
-      "nome": "02 - FAÇO",
-      "data": "01/07/2026",
-      "tipo": "Britador",
-      "tipoEstagio": "Britador · Primário",
-      "desativado": false,
-      "deck1": "-",
-      "deck2": "-",
-      "deck3": "-",
-      "abertura": "150mm",
-      "velocidade": "-"
-    }
-  ],
-  "04 - HP400": [
-    {
-      "marcador": "04",
-      "nome": "04 - HP400",
-      "data": "01/07/2026",
-      "tipo": "Britador",
-      "tipoEstagio": "Britador · Secundário",
-      "desativado": false,
-      "deck1": "-",
-      "deck2": "-",
-      "deck3": "-",
-      "abertura": "33mm",
-      "velocidade": "-"
-    }
-  ],
-  "06 - OSM 9x24": [
-    {
-      "marcador": "06",
-      "nome": "06 - OSM 9x24",
-      "data": "24/06/2026",
-      "tipo": "Peneira",
-      "tipoEstagio": "Peneira · Intermediária",
-      "desativado": false,
-      "deck1": "38",
-      "deck2": "17",
-      "deck3": "9 / 8",
-      "abertura": "-",
-      "velocidade": "-"
-    },
-    {
-      "marcador": "06",
-      "nome": "06 - OSM 9x24",
-      "data": "09/06/2026",
-      "tipo": "Peneira",
-      "tipoEstagio": "Peneira · Intermediária",
-      "desativado": false,
-      "deck1": "38",
-      "deck2": "17",
-      "deck3": "5",
-      "abertura": "-",
-      "velocidade": "-"
-    }
-  ],
-  "08 - OSM 9x24": [
-    {
-      "marcador": "08",
-      "nome": "08 - OSM 9x24",
-      "data": "24/11/2025",
-      "tipo": "Peneira",
-      "tipoEstagio": "Peneira · Intermediária",
-      "desativado": false,
-      "deck1": "-",
-      "deck2": "14",
-      "deck3": "6",
-      "abertura": "-",
-      "velocidade": "-"
-    }
-  ],
-  "15 - REMCO 500": [
-    {
-      "marcador": "15",
-      "nome": "15 - REMCO 500",
-      "data": "01/07/2026",
-      "tipo": "Britador",
-      "tipoEstagio": "Britador · Terciário",
-      "desativado": false,
-      "deck1": "-",
-      "deck2": "-",
-      "deck3": "-",
-      "abertura": "-",
-      "velocidade": "-"
-    }
-  ],
   "14 - METSO TY HUMMER": [
     {
       "marcador": "14",
@@ -452,6 +250,19 @@ const HISTORICO = {
       "desativado": false,
       "deck1": "1.2",
       "deck2": "0,6",
+      "deck3": "-",
+      "abertura": "-",
+      "velocidade": "-"
+    },
+    {
+      "marcador": "14",
+      "nome": "14 - METSO TY HUMMER",
+      "data": "01/07/2026",
+      "tipo": "Peneira",
+      "tipoEstagio": "Peneira · Final",
+      "desativado": false,
+      "deck1": "1.2",
+      "deck2": "-",
       "deck3": "-",
       "abertura": "-",
       "velocidade": "-"
@@ -531,181 +342,6 @@ const HISTORICO = {
       "deck1": "2.4",
       "deck2": "0.5",
       "deck3": "-",
-      "abertura": "-",
-      "velocidade": "-"
-    }
-  ],
-  "12 - Metso TS 4.3": [
-    {
-      "marcador": "12",
-      "nome": "12 - Metso TS 4.3",
-      "data": "01/07/2026",
-      "tipo": "Peneira",
-      "tipoEstagio": "Peneira · DESATIVADO",
-      "desativado": true,
-      "deck1": "6",
-      "deck2": "4422222/2222222",
-      "deck3": "3322222/2222222",
-      "abertura": "-",
-      "velocidade": "-"
-    }
-  ],
-  "13 - OSM 9x24": [
-    {
-      "marcador": "13",
-      "nome": "13 - OSM 9x24",
-      "data": "01/07/2026",
-      "tipo": "Peneira",
-      "tipoEstagio": "Peneira · Final",
-      "desativado": false,
-      "deck1": "16",
-      "deck2": "14",
-      "deck3": "5/4",
-      "abertura": "-",
-      "velocidade": "-"
-    },
-    {
-      "marcador": "13",
-      "nome": "13 - OSM 9x24",
-      "data": "16/06/2026",
-      "tipo": "Peneira",
-      "tipoEstagio": "Peneira · Final",
-      "desativado": false,
-      "deck1": "16",
-      "deck2": "14",
-      "deck3": "5",
-      "abertura": "-",
-      "velocidade": "-"
-    },
-    {
-      "marcador": "13",
-      "nome": "13 - OSM 9x24",
-      "data": "30/04/2026",
-      "tipo": "Peneira",
-      "tipoEstagio": "Peneira · Final",
-      "desativado": false,
-      "deck1": "16",
-      "deck2": "14",
-      "deck3": "5/4",
-      "abertura": "-",
-      "velocidade": "-"
-    },
-    {
-      "marcador": "13",
-      "nome": "13 - OSM 9x24",
-      "data": "27/03/2026",
-      "tipo": "Peneira",
-      "tipoEstagio": "Peneira · Final",
-      "desativado": false,
-      "deck1": "16",
-      "deck2": "14/121212121010",
-      "deck3": "5/4",
-      "abertura": "-",
-      "velocidade": "-"
-    },
-    {
-      "marcador": "13",
-      "nome": "13 - OSM 9x24",
-      "data": "12/01/2026",
-      "tipo": "Peneira",
-      "tipoEstagio": "Peneira · Final",
-      "desativado": false,
-      "deck1": "20",
-      "deck2": "14/121212121010",
-      "deck3": "5/4",
-      "abertura": "-",
-      "velocidade": "-"
-    },
-    {
-      "marcador": "13",
-      "nome": "13 - OSM 9x24",
-      "data": "19/12/2025",
-      "tipo": "Peneira",
-      "tipoEstagio": "Peneira · Final",
-      "desativado": false,
-      "deck1": "-",
-      "deck2": "14/121212121010",
-      "deck3": "5/4",
-      "abertura": "-",
-      "velocidade": "-"
-    },
-    {
-      "marcador": "13",
-      "nome": "13 - OSM 9x24",
-      "data": "28/11/2025",
-      "tipo": "Peneira",
-      "tipoEstagio": "Peneira · Final",
-      "desativado": false,
-      "deck1": "20",
-      "deck2": "14",
-      "deck3": "5/4",
-      "abertura": "-",
-      "velocidade": "-"
-    },
-    {
-      "marcador": "13",
-      "nome": "13 - OSM 9x24",
-      "data": "24/11/2025",
-      "tipo": "Peneira",
-      "tipoEstagio": "Peneira · Final",
-      "desativado": false,
-      "deck1": "20",
-      "deck2": "14",
-      "deck3": "5",
-      "abertura": "-",
-      "velocidade": "-"
-    }
-  ],
-  "12 - OSM 9x24": [
-    {
-      "marcador": "12",
-      "nome": "12 - OSM 9x24",
-      "data": "20/01/2026",
-      "tipo": "Peneira",
-      "tipoEstagio": "Peneira · Intermediária",
-      "desativado": false,
-      "deck1": "20",
-      "deck2": "14",
-      "deck3": "5",
-      "abertura": "-",
-      "velocidade": "-"
-    },
-    {
-      "marcador": "12",
-      "nome": "12 - OSM 9x24",
-      "data": "15/01/2026",
-      "tipo": "Peneira",
-      "tipoEstagio": "Peneira · Intermediária",
-      "desativado": false,
-      "deck1": "20",
-      "deck2": "14 / 121212121010",
-      "deck3": "5",
-      "abertura": "-",
-      "velocidade": "-"
-    },
-    {
-      "marcador": "12",
-      "nome": "12 - OSM 9x24",
-      "data": "15/01/2026",
-      "tipo": "Peneira",
-      "tipoEstagio": "Peneira · Intermediária",
-      "desativado": false,
-      "deck1": "20",
-      "deck2": "14",
-      "deck3": "5",
-      "abertura": "-",
-      "velocidade": "-"
-    },
-    {
-      "marcador": "12",
-      "nome": "12 - OSM 9x24",
-      "data": "19/12/2025",
-      "tipo": "Peneira",
-      "tipoEstagio": "Peneira · Final",
-      "desativado": false,
-      "deck1": "20",
-      "deck2": "14 / 12",
-      "deck3": "5",
       "abertura": "-",
       "velocidade": "-"
     }
@@ -1009,6 +645,435 @@ const HISTORICO = {
       "deck1": "-",
       "deck2": "17",
       "deck3": "6",
+      "abertura": "-",
+      "velocidade": "-"
+    }
+  ],
+  "05 - Peneira OSM 9x36": [
+    {
+      "marcador": "05",
+      "nome": "05 - Peneira OSM 9x36",
+      "data": "22/10/2026",
+      "tipo": "Peneira",
+      "tipoEstagio": "Peneira · Intermediária",
+      "desativado": false,
+      "deck1": "45 / 38",
+      "deck2": "22",
+      "deck3": "6/5/5",
+      "abertura": "-",
+      "velocidade": "-"
+    },
+    {
+      "marcador": "05",
+      "nome": "05 - Peneira OSM 9x36",
+      "data": "01/07/2026",
+      "tipo": "Peneira",
+      "tipoEstagio": "Peneira · Intermediária",
+      "desativado": false,
+      "deck1": "38",
+      "deck2": "19",
+      "deck3": "5",
+      "abertura": "-",
+      "velocidade": "-"
+    },
+    {
+      "marcador": "05",
+      "nome": "05 - Peneira OSM 9x36",
+      "data": "09/01/2026",
+      "tipo": "Peneira",
+      "tipoEstagio": "Peneira · Intermediária",
+      "desativado": false,
+      "deck1": "45",
+      "deck2": "22",
+      "deck3": "6/5/5",
+      "abertura": "-",
+      "velocidade": "-"
+    },
+    {
+      "marcador": "05",
+      "nome": "05 - Peneira OSM 9x36",
+      "data": "05/01/2026",
+      "tipo": "Peneira",
+      "tipoEstagio": "Peneira · Intermediária",
+      "desativado": false,
+      "deck1": "45",
+      "deck2": "22",
+      "deck3": "6/6/5",
+      "abertura": "-",
+      "velocidade": "-"
+    },
+    {
+      "marcador": "05",
+      "nome": "05 - Peneira OSM 9x36",
+      "data": "24/11/2025",
+      "tipo": "Peneira",
+      "tipoEstagio": "Peneira · Intermediária",
+      "desativado": false,
+      "deck1": "45",
+      "deck2": "22",
+      "deck3": "6/6/7",
+      "abertura": "-",
+      "velocidade": "-"
+    }
+  ],
+  "08 - OSM 9x24": [
+    {
+      "marcador": "08",
+      "nome": "08 - OSM 9x24",
+      "data": "22/10/2026",
+      "tipo": "Peneira",
+      "tipoEstagio": "Peneira · Final",
+      "desativado": false,
+      "deck1": "17",
+      "deck2": "14",
+      "deck3": "5/5",
+      "abertura": "-",
+      "velocidade": "-"
+    },
+    {
+      "marcador": "08",
+      "nome": "08 - OSM 9x24",
+      "data": "24/11/2025",
+      "tipo": "Peneira",
+      "tipoEstagio": "Peneira · Final",
+      "desativado": false,
+      "deck1": "-",
+      "deck2": "14",
+      "deck3": "6",
+      "abertura": "-",
+      "velocidade": "-"
+    }
+  ],
+  "13 - OSM 9x24": [
+    {
+      "marcador": "13",
+      "nome": "13 - OSM 9x24",
+      "data": "22/10/2026",
+      "tipo": "Peneira",
+      "tipoEstagio": "Peneira · Final",
+      "desativado": false,
+      "deck1": "-",
+      "deck2": "-",
+      "deck3": "5/5",
+      "abertura": "-",
+      "velocidade": "-"
+    },
+    {
+      "marcador": "13",
+      "nome": "13 - OSM 9x24",
+      "data": "01/07/2026",
+      "tipo": "Peneira",
+      "tipoEstagio": "Peneira · Final",
+      "desativado": false,
+      "deck1": "16",
+      "deck2": "14",
+      "deck3": "5/4",
+      "abertura": "-",
+      "velocidade": "-"
+    },
+    {
+      "marcador": "13",
+      "nome": "13 - OSM 9x24",
+      "data": "16/06/2026",
+      "tipo": "Peneira",
+      "tipoEstagio": "Peneira · Final",
+      "desativado": false,
+      "deck1": "16",
+      "deck2": "14",
+      "deck3": "5",
+      "abertura": "-",
+      "velocidade": "-"
+    },
+    {
+      "marcador": "13",
+      "nome": "13 - OSM 9x24",
+      "data": "30/04/2026",
+      "tipo": "Peneira",
+      "tipoEstagio": "Peneira · Final",
+      "desativado": false,
+      "deck1": "16",
+      "deck2": "14",
+      "deck3": "5/4",
+      "abertura": "-",
+      "velocidade": "-"
+    },
+    {
+      "marcador": "13",
+      "nome": "13 - OSM 9x24",
+      "data": "27/03/2026",
+      "tipo": "Peneira",
+      "tipoEstagio": "Peneira · Final",
+      "desativado": false,
+      "deck1": "16",
+      "deck2": "14/121212121010",
+      "deck3": "5/4",
+      "abertura": "-",
+      "velocidade": "-"
+    },
+    {
+      "marcador": "13",
+      "nome": "13 - OSM 9x24",
+      "data": "12/01/2026",
+      "tipo": "Peneira",
+      "tipoEstagio": "Peneira · Final",
+      "desativado": false,
+      "deck1": "20",
+      "deck2": "14/121212121010",
+      "deck3": "5/4",
+      "abertura": "-",
+      "velocidade": "-"
+    },
+    {
+      "marcador": "13",
+      "nome": "13 - OSM 9x24",
+      "data": "19/12/2025",
+      "tipo": "Peneira",
+      "tipoEstagio": "Peneira · Final",
+      "desativado": false,
+      "deck1": "-",
+      "deck2": "14/121212121010",
+      "deck3": "5/4",
+      "abertura": "-",
+      "velocidade": "-"
+    },
+    {
+      "marcador": "13",
+      "nome": "13 - OSM 9x24",
+      "data": "28/11/2025",
+      "tipo": "Peneira",
+      "tipoEstagio": "Peneira · Final",
+      "desativado": false,
+      "deck1": "20",
+      "deck2": "14",
+      "deck3": "5/4",
+      "abertura": "-",
+      "velocidade": "-"
+    },
+    {
+      "marcador": "13",
+      "nome": "13 - OSM 9x24",
+      "data": "24/11/2025",
+      "tipo": "Peneira",
+      "tipoEstagio": "Peneira · Final",
+      "desativado": false,
+      "deck1": "20",
+      "deck2": "14",
+      "deck3": "5",
+      "abertura": "-",
+      "velocidade": "-"
+    }
+  ],
+  "12 - OSM 9x24": [
+    {
+      "marcador": "12",
+      "nome": "12 - OSM 9x24",
+      "data": "20/01/2026",
+      "tipo": "Peneira",
+      "tipoEstagio": "Peneira · Intermediária",
+      "desativado": false,
+      "deck1": "20",
+      "deck2": "14",
+      "deck3": "5",
+      "abertura": "-",
+      "velocidade": "-"
+    },
+    {
+      "marcador": "12",
+      "nome": "12 - OSM 9x24",
+      "data": "15/01/2026",
+      "tipo": "Peneira",
+      "tipoEstagio": "Peneira · Intermediária",
+      "desativado": false,
+      "deck1": "20",
+      "deck2": "14 / 121212121010",
+      "deck3": "5",
+      "abertura": "-",
+      "velocidade": "-"
+    },
+    {
+      "marcador": "12",
+      "nome": "12 - OSM 9x24",
+      "data": "15/01/2026",
+      "tipo": "Peneira",
+      "tipoEstagio": "Peneira · Intermediária",
+      "desativado": false,
+      "deck1": "20",
+      "deck2": "14",
+      "deck3": "5",
+      "abertura": "-",
+      "velocidade": "-"
+    },
+    {
+      "marcador": "12",
+      "nome": "12 - OSM 9x24",
+      "data": "19/12/2025",
+      "tipo": "Peneira",
+      "tipoEstagio": "Peneira · Final",
+      "desativado": false,
+      "deck1": "20",
+      "deck2": "14 / 12",
+      "deck3": "5",
+      "abertura": "-",
+      "velocidade": "-"
+    }
+  ],
+  "06 - OSM 9x24": [
+    {
+      "marcador": "06",
+      "nome": "06 - OSM 9x24",
+      "data": "22/10/2026",
+      "tipo": "Peneira",
+      "tipoEstagio": "Peneira · Intermediária",
+      "desativado": false,
+      "deck1": "45",
+      "deck2": "17",
+      "deck3": "9 / 8",
+      "abertura": "-",
+      "velocidade": "-"
+    },
+    {
+      "marcador": "06",
+      "nome": "06 - OSM 9x24",
+      "data": "24/06/2026",
+      "tipo": "Peneira",
+      "tipoEstagio": "Peneira · Intermediária",
+      "desativado": false,
+      "deck1": "38",
+      "deck2": "17",
+      "deck3": "9 / 8",
+      "abertura": "-",
+      "velocidade": "-"
+    },
+    {
+      "marcador": "06",
+      "nome": "06 - OSM 9x24",
+      "data": "09/06/2026",
+      "tipo": "Peneira",
+      "tipoEstagio": "Peneira · Intermediária",
+      "desativado": false,
+      "deck1": "38",
+      "deck2": "17",
+      "deck3": "5",
+      "abertura": "-",
+      "velocidade": "-"
+    }
+  ],
+  "01 - C125": [
+    {
+      "marcador": "01",
+      "nome": "01 - C125",
+      "data": "01/07/2026",
+      "tipo": "Britador",
+      "tipoEstagio": "Britador · Primário",
+      "desativado": false,
+      "deck1": "-",
+      "deck2": "-",
+      "deck3": "-",
+      "abertura": "150mm",
+      "velocidade": "-"
+    }
+  ],
+  "03 - OC1300": [
+    {
+      "marcador": "03",
+      "nome": "03 - OC1300",
+      "data": "01/07/2026",
+      "tipo": "Britador",
+      "tipoEstagio": "Britador · Secundário",
+      "desativado": false,
+      "deck1": "-",
+      "deck2": "-",
+      "deck3": "-",
+      "abertura": "42mm",
+      "velocidade": "-"
+    }
+  ],
+  "03 - HP4": [
+    {
+      "marcador": "03",
+      "nome": "03 - HP4",
+      "data": "01/07/2026",
+      "tipo": "Britador",
+      "tipoEstagio": "Britador · Terciário",
+      "desativado": false,
+      "deck1": "-",
+      "deck2": "-",
+      "deck3": "-",
+      "abertura": "19mm",
+      "velocidade": "-"
+    }
+  ],
+  "09 - REMCO 400": [
+    {
+      "marcador": "09",
+      "nome": "09 - REMCO 400",
+      "data": "01/07/2026",
+      "tipo": "Britador",
+      "tipoEstagio": "Britador · Terciário",
+      "desativado": false,
+      "deck1": "-",
+      "deck2": "-",
+      "deck3": "-",
+      "abertura": "-",
+      "velocidade": "-"
+    }
+  ],
+  "02 - FAÇO": [
+    {
+      "marcador": "02",
+      "nome": "02 - FAÇO",
+      "data": "01/07/2026",
+      "tipo": "Britador",
+      "tipoEstagio": "Britador · Primário",
+      "desativado": false,
+      "deck1": "-",
+      "deck2": "-",
+      "deck3": "-",
+      "abertura": "150mm",
+      "velocidade": "-"
+    }
+  ],
+  "04 - HP400": [
+    {
+      "marcador": "04",
+      "nome": "04 - HP400",
+      "data": "01/07/2026",
+      "tipo": "Britador",
+      "tipoEstagio": "Britador · Secundário",
+      "desativado": false,
+      "deck1": "-",
+      "deck2": "-",
+      "deck3": "-",
+      "abertura": "33mm",
+      "velocidade": "-"
+    }
+  ],
+  "15 - REMCO 500": [
+    {
+      "marcador": "15",
+      "nome": "15 - REMCO 500",
+      "data": "01/07/2026",
+      "tipo": "Britador",
+      "tipoEstagio": "Britador · Terciário",
+      "desativado": false,
+      "deck1": "-",
+      "deck2": "-",
+      "deck3": "-",
+      "abertura": "-",
+      "velocidade": "-"
+    }
+  ],
+  "12 - Metso TS 4.3": [
+    {
+      "marcador": "12",
+      "nome": "12 - Metso TS 4.3",
+      "data": "01/07/2026",
+      "tipo": "Peneira",
+      "tipoEstagio": "Peneira · DESATIVADO",
+      "desativado": true,
+      "deck1": "6",
+      "deck2": "4422222/2222222",
+      "deck3": "3322222/2222222",
       "abertura": "-",
       "velocidade": "-"
     }
