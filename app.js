@@ -27,9 +27,9 @@
     };
   }
 
-  function deckValueHtml(v) {
+  function deckValueHtml(v, forceLong) {
     const s = String(v);
-    const cls = s.length > 7 ? "eq-card__cell-value eq-card__cell-value--long" : "eq-card__cell-value";
+    const cls = forceLong || s.length > 7 ? "eq-card__cell-value eq-card__cell-value--long" : "eq-card__cell-value";
     return `<div class="${cls}">${s}</div>`;
   }
 
@@ -42,15 +42,18 @@
     if (tipo === "britador") {
       const isRemco = (card.nome || "").toUpperCase().includes("REMCO");
       if (isRemco) {
+        // Velocidade e Configuração lado a lado: mesmo tamanho de fonte nos dois
+        // (se um deles for "longo", ambos usam a fonte menor).
+        const longo = String(card.velocidade).length > 7 || String(card.configuracao).length > 7;
         return `
         <div class="eq-card__grid eq-card__grid--double">
           <div class="eq-card__cell">
             <div class="eq-card__cell-label">Velocidade</div>
-            ${deckValueHtml(card.velocidade)}
+            ${deckValueHtml(card.velocidade, longo)}
           </div>
           <div class="eq-card__cell">
             <div class="eq-card__cell-label">Configura&ccedil;&atilde;o</div>
-            ${deckValueHtml(card.configuracao)}
+            ${deckValueHtml(card.configuracao, longo)}
           </div>
         </div>
       `;
