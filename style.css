@@ -145,6 +145,10 @@ html, body {
   grid-template-columns: 1fr;
 }
 
+.eq-card__grid--double {
+  grid-template-columns: 1fr 1fr;
+}
+
 .eq-card__cell {
   background: #fafbfc;
   padding: 9px 10px;

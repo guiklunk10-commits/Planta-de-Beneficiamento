@@ -12,7 +12,8 @@ const EQUIPAMENTOS = {
       "deck2": "-",
       "deck3": "-",
       "abertura": "150mm",
-      "velocidade": "-"
+      "velocidade": "-",
+      "configuracao": "-"
     }
   ],
   "02": [
@@ -27,7 +28,8 @@ const EQUIPAMENTOS = {
       "deck2": "-",
       "deck3": "-",
       "abertura": "150mm",
-      "velocidade": "-"
+      "velocidade": "-",
+      "configuracao": "-"
     }
   ],
   "03": [
@@ -42,7 +44,8 @@ const EQUIPAMENTOS = {
       "deck2": "-",
       "deck3": "-",
       "abertura": "19mm",
-      "velocidade": "-"
+      "velocidade": "-",
+      "configuracao": "-"
     },
     {
       "marcador": "03",
@@ -55,7 +58,8 @@ const EQUIPAMENTOS = {
       "deck2": "-",
       "deck3": "-",
       "abertura": "42mm",
-      "velocidade": "-"
+      "velocidade": "-",
+      "configuracao": "-"
     }
   ],
   "04": [
@@ -70,7 +74,8 @@ const EQUIPAMENTOS = {
       "deck2": "-",
       "deck3": "-",
       "abertura": "33mm",
-      "velocidade": "-"
+      "velocidade": "-",
+      "configuracao": "-"
     }
   ],
   "05": [
@@ -85,7 +90,8 @@ const EQUIPAMENTOS = {
       "deck2": "22",
       "deck3": "6/5/5",
       "abertura": "-",
-      "velocidade": "-"
+      "velocidade": "-",
+      "configuracao": "-"
     }
   ],
   "06": [
@@ -100,7 +106,8 @@ const EQUIPAMENTOS = {
       "deck2": "17",
       "deck3": "9 / 8",
       "abertura": "-",
-      "velocidade": "-"
+      "velocidade": "-",
+      "configuracao": "-"
     }
   ],
   "07": [
@@ -115,7 +122,8 @@ const EQUIPAMENTOS = {
       "deck2": "10",
       "deck3": "5",
       "abertura": "-",
-      "velocidade": "-"
+      "velocidade": "-",
+      "configuracao": "-"
     }
   ],
   "08": [
@@ -130,7 +138,8 @@ const EQUIPAMENTOS = {
       "deck2": "14",
       "deck3": "5/5",
       "abertura": "-",
-      "velocidade": "-"
+      "velocidade": "-",
+      "configuracao": "-"
     }
   ],
   "09": [
@@ -145,7 +154,8 @@ const EQUIPAMENTOS = {
       "deck2": "-",
       "deck3": "-",
       "abertura": "-",
-      "velocidade": "-"
+      "velocidade": "1421 RPM",
+      "configuracao": "90%"
     }
   ],
   "10": [
@@ -160,7 +170,8 @@ const EQUIPAMENTOS = {
       "deck2": "4333222",
       "deck3": "-",
       "abertura": "-",
-      "velocidade": "-"
+      "velocidade": "-",
+      "configuracao": "-"
     }
   ],
   "11": [
@@ -175,7 +186,8 @@ const EQUIPAMENTOS = {
       "deck2": "-",
       "deck3": "-",
       "abertura": "-",
-      "velocidade": "-"
+      "velocidade": "1166 RPM",
+      "configuracao": "90%"
     }
   ],
   "12": [
@@ -190,7 +202,8 @@ const EQUIPAMENTOS = {
       "deck2": "14",
       "deck3": "5",
       "abertura": "-",
-      "velocidade": "-"
+      "velocidade": "-",
+      "configuracao": "-"
     }
   ],
   "13": [
@@ -205,7 +218,8 @@ const EQUIPAMENTOS = {
       "deck2": "-",
       "deck3": "5/5",
       "abertura": "-",
-      "velocidade": "-"
+      "velocidade": "-",
+      "configuracao": "-"
     }
   ],
   "14": [
@@ -220,7 +234,8 @@ const EQUIPAMENTOS = {
       "deck2": "0,6",
       "deck3": "-",
       "abertura": "-",
-      "velocidade": "-"
+      "velocidade": "-",
+      "configuracao": "-"
     }
   ],
   "15": [
@@ -235,7 +250,8 @@ const EQUIPAMENTOS = {
       "deck2": "-",
       "deck3": "-",
       "abertura": "-",
-      "velocidade": "-"
+      "velocidade": "1630 RPM",
+      "configuracao": "100%"
     }
   ]
 };
@@ -252,7 +268,8 @@ const HISTORICO = {
       "deck2": "0,6",
       "deck3": "-",
       "abertura": "-",
-      "velocidade": "-"
+      "velocidade": "-",
+      "configuracao": "-"
     },
     {
       "marcador": "14",
@@ -265,7 +282,8 @@ const HISTORICO = {
       "deck2": "-",
       "deck3": "-",
       "abertura": "-",
-      "velocidade": "-"
+      "velocidade": "-",
+      "configuracao": "-"
     },
     {
       "marcador": "14",
@@ -278,7 +296,8 @@ const HISTORICO = {
       "deck2": "0,5 / 0,6",
       "deck3": "-",
       "abertura": "-",
-      "velocidade": "-"
+      "velocidade": "-",
+      "configuracao": "-"
     },
     {
       "marcador": "14",
@@ -291,7 +310,8 @@ const HISTORICO = {
       "deck2": "0.5",
       "deck3": "-",
       "abertura": "-",
-      "velocidade": "-"
+      "velocidade": "-",
+      "configuracao": "-"
     },
     {
       "marcador": "14",
@@ -304,7 +324,8 @@ const HISTORICO = {
       "deck2": "0,75 / 0,5",
       "deck3": "-",
       "abertura": "-",
-      "velocidade": "-"
+      "velocidade": "-",
+      "configuracao": "-"
     },
     {
       "marcador": "14",
@@ -317,7 +338,8 @@ const HISTORICO = {
       "deck2": "0.5",
       "deck3": "-",
       "abertura": "-",
-      "velocidade": "-"
+      "velocidade": "-",
+      "configuracao": "-"
     },
     {
       "marcador": "14",
@@ -330,7 +352,8 @@ const HISTORICO = {
       "deck2": "0.75",
       "deck3": "-",
       "abertura": "-",
-      "velocidade": "-"
+      "velocidade": "-",
+      "configuracao": "-"
     },
     {
       "marcador": "14",
@@ -343,7 +366,8 @@ const HISTORICO = {
       "deck2": "0.5",
       "deck3": "-",
       "abertura": "-",
-      "velocidade": "-"
+      "velocidade": "-",
+      "configuracao": "-"
     }
   ],
   "10 - OSM 5x14": [
@@ -358,7 +382,8 @@ const HISTORICO = {
       "deck2": "4333222",
       "deck3": "-",
       "abertura": "-",
-      "velocidade": "-"
+      "velocidade": "-",
+      "configuracao": "-"
     },
     {
       "marcador": "10",
@@ -371,7 +396,8 @@ const HISTORICO = {
       "deck2": "4433222",
       "deck3": "-",
       "abertura": "-",
-      "velocidade": "-"
+      "velocidade": "-",
+      "configuracao": "-"
     },
     {
       "marcador": "10",
@@ -384,7 +410,8 @@ const HISTORICO = {
       "deck2": "44333222",
       "deck3": "-",
       "abertura": "-",
-      "velocidade": "-"
+      "velocidade": "-",
+      "configuracao": "-"
     },
     {
       "marcador": "10",
@@ -397,7 +424,8 @@ const HISTORICO = {
       "deck2": "4444333",
       "deck3": "-",
       "abertura": "-",
-      "velocidade": "-"
+      "velocidade": "-",
+      "configuracao": "-"
     },
     {
       "marcador": "10",
@@ -410,7 +438,8 @@ const HISTORICO = {
       "deck2": "4",
       "deck3": "-",
       "abertura": "-",
-      "velocidade": "-"
+      "velocidade": "-",
+      "configuracao": "-"
     },
     {
       "marcador": "10",
@@ -423,7 +452,8 @@ const HISTORICO = {
       "deck2": "3",
       "deck3": "-",
       "abertura": "-",
-      "velocidade": "-"
+      "velocidade": "-",
+      "configuracao": "-"
     },
     {
       "marcador": "10",
@@ -436,7 +466,8 @@ const HISTORICO = {
       "deck2": "-",
       "deck3": "-",
       "abertura": "-",
-      "velocidade": "-"
+      "velocidade": "-",
+      "configuracao": "-"
     },
     {
       "marcador": "10",
@@ -449,7 +480,8 @@ const HISTORICO = {
       "deck2": "4",
       "deck3": "-",
       "abertura": "-",
-      "velocidade": "-"
+      "velocidade": "-",
+      "configuracao": "-"
     },
     {
       "marcador": "10",
@@ -462,7 +494,8 @@ const HISTORICO = {
       "deck2": "3",
       "deck3": "-",
       "abertura": "-",
-      "velocidade": "-"
+      "velocidade": "-",
+      "configuracao": "-"
     },
     {
       "marcador": "10",
@@ -475,7 +508,8 @@ const HISTORICO = {
       "deck2": "2233333",
       "deck3": "-",
       "abertura": "-",
-      "velocidade": "-"
+      "velocidade": "-",
+      "configuracao": "-"
     },
     {
       "marcador": "10",
@@ -488,7 +522,8 @@ const HISTORICO = {
       "deck2": "4",
       "deck3": "-",
       "abertura": "-",
-      "velocidade": "-"
+      "velocidade": "-",
+      "configuracao": "-"
     },
     {
       "marcador": "10",
@@ -501,7 +536,8 @@ const HISTORICO = {
       "deck2": "2",
       "deck3": "-",
       "abertura": "-",
-      "velocidade": "-"
+      "velocidade": "-",
+      "configuracao": "-"
     },
     {
       "marcador": "10",
@@ -514,7 +550,8 @@ const HISTORICO = {
       "deck2": "4422222",
       "deck3": "-",
       "abertura": "-",
-      "velocidade": "-"
+      "velocidade": "-",
+      "configuracao": "-"
     },
     {
       "marcador": "10",
@@ -527,7 +564,8 @@ const HISTORICO = {
       "deck2": "4",
       "deck3": "-",
       "abertura": "-",
-      "velocidade": "-"
+      "velocidade": "-",
+      "configuracao": "-"
     },
     {
       "marcador": "10",
@@ -540,7 +578,8 @@ const HISTORICO = {
       "deck2": "4",
       "deck3": "-",
       "abertura": "-",
-      "velocidade": "-"
+      "velocidade": "-",
+      "configuracao": "-"
     },
     {
       "marcador": "10",
@@ -553,7 +592,8 @@ const HISTORICO = {
       "deck2": "5",
       "deck3": "-",
       "abertura": "-",
-      "velocidade": "-"
+      "velocidade": "-",
+      "configuracao": "-"
     },
     {
       "marcador": "10",
@@ -566,7 +606,8 @@ const HISTORICO = {
       "deck2": "6",
       "deck3": "-",
       "abertura": "-",
-      "velocidade": "-"
+      "velocidade": "-",
+      "configuracao": "-"
     }
   ],
   "07 - Metso CBS": [
@@ -581,7 +622,8 @@ const HISTORICO = {
       "deck2": "10",
       "deck3": "5",
       "abertura": "-",
-      "velocidade": "-"
+      "velocidade": "-",
+      "configuracao": "-"
     },
     {
       "marcador": "07",
@@ -594,7 +636,8 @@ const HISTORICO = {
       "deck2": "10",
       "deck3": "5",
       "abertura": "-",
-      "velocidade": "-"
+      "velocidade": "-",
+      "configuracao": "-"
     },
     {
       "marcador": "07",
@@ -607,7 +650,8 @@ const HISTORICO = {
       "deck2": "10",
       "deck3": "5",
       "abertura": "-",
-      "velocidade": "-"
+      "velocidade": "-",
+      "configuracao": "-"
     },
     {
       "marcador": "07",
@@ -620,7 +664,8 @@ const HISTORICO = {
       "deck2": "10",
       "deck3": "5",
       "abertura": "-",
-      "velocidade": "-"
+      "velocidade": "-",
+      "configuracao": "-"
     },
     {
       "marcador": "07",
@@ -633,7 +678,8 @@ const HISTORICO = {
       "deck2": "10",
       "deck3": "6",
       "abertura": "-",
-      "velocidade": "-"
+      "velocidade": "-",
+      "configuracao": "-"
     },
     {
       "marcador": "07",
@@ -646,7 +692,8 @@ const HISTORICO = {
       "deck2": "17",
       "deck3": "6",
       "abertura": "-",
-      "velocidade": "-"
+      "velocidade": "-",
+      "configuracao": "-"
     }
   ],
   "05 - Peneira OSM 9x36": [
@@ -661,7 +708,8 @@ const HISTORICO = {
       "deck2": "22",
       "deck3": "6/5/5",
       "abertura": "-",
-      "velocidade": "-"
+      "velocidade": "-",
+      "configuracao": "-"
     },
     {
       "marcador": "05",
@@ -674,7 +722,8 @@ const HISTORICO = {
       "deck2": "19",
       "deck3": "5",
       "abertura": "-",
-      "velocidade": "-"
+      "velocidade": "-",
+      "configuracao": "-"
     },
     {
       "marcador": "05",
@@ -687,7 +736,8 @@ const HISTORICO = {
       "deck2": "22",
       "deck3": "6/5/5",
       "abertura": "-",
-      "velocidade": "-"
+      "velocidade": "-",
+      "configuracao": "-"
     },
     {
       "marcador": "05",
@@ -700,7 +750,8 @@ const HISTORICO = {
       "deck2": "22",
       "deck3": "6/6/5",
       "abertura": "-",
-      "velocidade": "-"
+      "velocidade": "-",
+      "configuracao": "-"
     },
     {
       "marcador": "05",
@@ -713,7 +764,8 @@ const HISTORICO = {
       "deck2": "22",
       "deck3": "6/6/7",
       "abertura": "-",
-      "velocidade": "-"
+      "velocidade": "-",
+      "configuracao": "-"
     }
   ],
   "08 - OSM 9x24": [
@@ -728,7 +780,8 @@ const HISTORICO = {
       "deck2": "14",
       "deck3": "5/5",
       "abertura": "-",
-      "velocidade": "-"
+      "velocidade": "-",
+      "configuracao": "-"
     },
     {
       "marcador": "08",
@@ -741,7 +794,8 @@ const HISTORICO = {
       "deck2": "14",
       "deck3": "6",
       "abertura": "-",
-      "velocidade": "-"
+      "velocidade": "-",
+      "configuracao": "-"
     }
   ],
   "13 - OSM 9x24": [
@@ -756,7 +810,8 @@ const HISTORICO = {
       "deck2": "-",
       "deck3": "5/5",
       "abertura": "-",
-      "velocidade": "-"
+      "velocidade": "-",
+      "configuracao": "-"
     },
     {
       "marcador": "13",
@@ -769,7 +824,8 @@ const HISTORICO = {
       "deck2": "14",
       "deck3": "5/4",
       "abertura": "-",
-      "velocidade": "-"
+      "velocidade": "-",
+      "configuracao": "-"
     },
     {
       "marcador": "13",
@@ -782,7 +838,8 @@ const HISTORICO = {
       "deck2": "14",
       "deck3": "5",
       "abertura": "-",
-      "velocidade": "-"
+      "velocidade": "-",
+      "configuracao": "-"
     },
     {
       "marcador": "13",
@@ -795,7 +852,8 @@ const HISTORICO = {
       "deck2": "14",
       "deck3": "5/4",
       "abertura": "-",
-      "velocidade": "-"
+      "velocidade": "-",
+      "configuracao": "-"
     },
     {
       "marcador": "13",
@@ -808,7 +866,8 @@ const HISTORICO = {
       "deck2": "14/121212121010",
       "deck3": "5/4",
       "abertura": "-",
-      "velocidade": "-"
+      "velocidade": "-",
+      "configuracao": "-"
     },
     {
       "marcador": "13",
@@ -821,7 +880,8 @@ const HISTORICO = {
       "deck2": "14/121212121010",
       "deck3": "5/4",
       "abertura": "-",
-      "velocidade": "-"
+      "velocidade": "-",
+      "configuracao": "-"
     },
     {
       "marcador": "13",
@@ -834,7 +894,8 @@ const HISTORICO = {
       "deck2": "14/121212121010",
       "deck3": "5/4",
       "abertura": "-",
-      "velocidade": "-"
+      "velocidade": "-",
+      "configuracao": "-"
     },
     {
       "marcador": "13",
@@ -847,7 +908,8 @@ const HISTORICO = {
       "deck2": "14",
       "deck3": "5/4",
       "abertura": "-",
-      "velocidade": "-"
+      "velocidade": "-",
+      "configuracao": "-"
     },
     {
       "marcador": "13",
@@ -860,7 +922,8 @@ const HISTORICO = {
       "deck2": "14",
       "deck3": "5",
       "abertura": "-",
-      "velocidade": "-"
+      "velocidade": "-",
+      "configuracao": "-"
     }
   ],
   "12 - OSM 9x24": [
@@ -875,7 +938,8 @@ const HISTORICO = {
       "deck2": "14",
       "deck3": "5",
       "abertura": "-",
-      "velocidade": "-"
+      "velocidade": "-",
+      "configuracao": "-"
     },
     {
       "marcador": "12",
@@ -888,7 +952,8 @@ const HISTORICO = {
       "deck2": "14 / 121212121010",
       "deck3": "5",
       "abertura": "-",
-      "velocidade": "-"
+      "velocidade": "-",
+      "configuracao": "-"
     },
     {
       "marcador": "12",
@@ -901,7 +966,8 @@ const HISTORICO = {
       "deck2": "14",
       "deck3": "5",
       "abertura": "-",
-      "velocidade": "-"
+      "velocidade": "-",
+      "configuracao": "-"
     },
     {
       "marcador": "12",
@@ -914,7 +980,8 @@ const HISTORICO = {
       "deck2": "14 / 12",
       "deck3": "5",
       "abertura": "-",
-      "velocidade": "-"
+      "velocidade": "-",
+      "configuracao": "-"
     }
   ],
   "06 - OSM 9x24": [
@@ -929,7 +996,8 @@ const HISTORICO = {
       "deck2": "17",
       "deck3": "9 / 8",
       "abertura": "-",
-      "velocidade": "-"
+      "velocidade": "-",
+      "configuracao": "-"
     },
     {
       "marcador": "06",
@@ -942,7 +1010,8 @@ const HISTORICO = {
       "deck2": "17",
       "deck3": "9 / 8",
       "abertura": "-",
-      "velocidade": "-"
+      "velocidade": "-",
+      "configuracao": "-"
     },
     {
       "marcador": "06",
@@ -955,7 +1024,8 @@ const HISTORICO = {
       "deck2": "17",
       "deck3": "5",
       "abertura": "-",
-      "velocidade": "-"
+      "velocidade": "-",
+      "configuracao": "-"
     }
   ],
   "01 - C125": [
@@ -970,7 +1040,8 @@ const HISTORICO = {
       "deck2": "-",
       "deck3": "-",
       "abertura": "150mm",
-      "velocidade": "-"
+      "velocidade": "-",
+      "configuracao": "-"
     }
   ],
   "03 - OC1300": [
@@ -985,7 +1056,8 @@ const HISTORICO = {
       "deck2": "-",
       "deck3": "-",
       "abertura": "42mm",
-      "velocidade": "-"
+      "velocidade": "-",
+      "configuracao": "-"
     }
   ],
   "03 - HP4": [
@@ -1000,7 +1072,8 @@ const HISTORICO = {
       "deck2": "-",
       "deck3": "-",
       "abertura": "19mm",
-      "velocidade": "-"
+      "velocidade": "-",
+      "configuracao": "-"
     }
   ],
   "09 - REMCO 400": [
@@ -1015,7 +1088,8 @@ const HISTORICO = {
       "deck2": "-",
       "deck3": "-",
       "abertura": "-",
-      "velocidade": "-"
+      "velocidade": "1421 RPM",
+      "configuracao": "90%"
     }
   ],
   "02 - FAÇO": [
@@ -1030,7 +1104,8 @@ const HISTORICO = {
       "deck2": "-",
       "deck3": "-",
       "abertura": "150mm",
-      "velocidade": "-"
+      "velocidade": "-",
+      "configuracao": "-"
     }
   ],
   "04 - HP400": [
@@ -1045,7 +1120,8 @@ const HISTORICO = {
       "deck2": "-",
       "deck3": "-",
       "abertura": "33mm",
-      "velocidade": "-"
+      "velocidade": "-",
+      "configuracao": "-"
     }
   ],
   "15 - REMCO 500": [
@@ -1060,7 +1136,8 @@ const HISTORICO = {
       "deck2": "-",
       "deck3": "-",
       "abertura": "-",
-      "velocidade": "-"
+      "velocidade": "1630 RPM",
+      "configuracao": "100%"
     }
   ],
   "12 - Metso TS 4.3": [
@@ -1075,7 +1152,8 @@ const HISTORICO = {
       "deck2": "4422222/2222222",
       "deck3": "3322222/2222222",
       "abertura": "-",
-      "velocidade": "-"
+      "velocidade": "-",
+      "configuracao": "-"
     }
   ],
   "11 - REMCO 800": [
@@ -1090,7 +1168,8 @@ const HISTORICO = {
       "deck2": "-",
       "deck3": "-",
       "abertura": "-",
-      "velocidade": "-"
+      "velocidade": "1166 RPM",
+      "configuracao": "90%"
     }
   ]
 };

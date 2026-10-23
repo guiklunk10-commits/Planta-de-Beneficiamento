@@ -34,14 +34,29 @@
   }
 
   // Britador: mostra so "Abertura" — exceto se o nome contiver "REMCO", caso em
-  // que mostra "Velocidade" no lugar. Peneira (ou tipo desconhecido/fallback
-  // sem nenhum registro): mostra os 3 decks. Regra de negocio pedida pelo usuario.
+  // que mostra "Velocidade" e "Configuração" no lugar. Peneira (ou tipo
+  // desconhecido/fallback sem nenhum registro): mostra os 3 decks. Regra de
+  // negocio pedida pelo usuario.
   function fieldsGridHtml(card) {
     const tipo = (card.tipo || "").trim().toLowerCase();
     if (tipo === "britador") {
       const isRemco = (card.nome || "").toUpperCase().includes("REMCO");
-      const label = isRemco ? "Velocidade" : "Abertura";
-      const valor = isRemco ? card.velocidade : card.abertura;
+      if (isRemco) {
+        return `
+        <div class="eq-card__grid eq-card__grid--double">
+          <div class="eq-card__cell">
+            <div class="eq-card__cell-label">Velocidade</div>
+            ${deckValueHtml(card.velocidade)}
+          </div>
+          <div class="eq-card__cell">
+            <div class="eq-card__cell-label">Configura&ccedil;&atilde;o</div>
+            ${deckValueHtml(card.configuracao)}
+          </div>
+        </div>
+      `;
+      }
+      const label = "Abertura";
+      const valor = card.abertura;
       return `
         <div class="eq-card__grid eq-card__grid--single">
           <div class="eq-card__cell">
