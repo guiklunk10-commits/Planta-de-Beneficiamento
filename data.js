@@ -226,12 +226,12 @@ const EQUIPAMENTOS = {
     {
       "marcador": "14",
       "nome": "14 - METSO TY HUMMER",
-      "data": "01/07/2026",
+      "data": "30/10/2026",
       "tipo": "Peneira",
       "tipoEstagio": "Peneira · Final",
       "desativado": false,
       "deck1": "1.2",
-      "deck2": "0,6",
+      "deck2": "0,5",
       "deck3": "-",
       "abertura": "-",
       "velocidade": "-",
@@ -257,6 +257,20 @@ const EQUIPAMENTOS = {
 };
 const HISTORICO = {
   "14 - METSO TY HUMMER": [
+    {
+      "marcador": "14",
+      "nome": "14 - METSO TY HUMMER",
+      "data": "30/10/2026",
+      "tipo": "Peneira",
+      "tipoEstagio": "Peneira · Final",
+      "desativado": false,
+      "deck1": "1.2",
+      "deck2": "0,5",
+      "deck3": "-",
+      "abertura": "-",
+      "velocidade": "-",
+      "configuracao": "-"
+    },
     {
       "marcador": "14",
       "nome": "14 - METSO TY HUMMER",
