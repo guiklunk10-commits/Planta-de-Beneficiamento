@@ -114,11 +114,11 @@ const EQUIPAMENTOS = {
     {
       "marcador": "07",
       "nome": "07 - Metso CBS",
-      "data": "06/05/2026",
+      "data": "28/10/2026",
       "tipo": "Peneira",
       "tipoEstagio": "Peneira · Final",
       "desativado": false,
-      "deck1": "13",
+      "deck1": "18",
       "deck2": "10",
       "deck3": "5",
       "abertura": "-",
@@ -226,12 +226,12 @@ const EQUIPAMENTOS = {
     {
       "marcador": "14",
       "nome": "14 - METSO TY HUMMER",
-      "data": "22/10/2026",
+      "data": "01/07/2026",
       "tipo": "Peneira",
       "tipoEstagio": "Peneira · Final",
       "desativado": false,
       "deck1": "1.2",
-      "deck2": "-",
+      "deck2": "0,6",
       "deck3": "-",
       "abertura": "-",
       "velocidade": "-",
@@ -257,20 +257,6 @@ const EQUIPAMENTOS = {
 };
 const HISTORICO = {
   "14 - METSO TY HUMMER": [
-    {
-      "marcador": "14",
-      "nome": "14 - METSO TY HUMMER",
-      "data": "22/10/2026",
-      "tipo": "Peneira",
-      "tipoEstagio": "Peneira · Final",
-      "desativado": false,
-      "deck1": "1.2",
-      "deck2": "-",
-      "deck3": "-",
-      "abertura": "-",
-      "velocidade": "-",
-      "configuracao": "-"
-    },
     {
       "marcador": "14",
       "nome": "14 - METSO TY HUMMER",
@@ -611,6 +597,20 @@ const HISTORICO = {
     }
   ],
   "07 - Metso CBS": [
+    {
+      "marcador": "07",
+      "nome": "07 - Metso CBS",
+      "data": "28/10/2026",
+      "tipo": "Peneira",
+      "tipoEstagio": "Peneira · Final",
+      "desativado": false,
+      "deck1": "18",
+      "deck2": "10",
+      "deck3": "5",
+      "abertura": "-",
+      "velocidade": "-",
+      "configuracao": "-"
+    },
     {
       "marcador": "07",
       "nome": "07 - Metso CBS",
