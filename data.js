@@ -114,12 +114,12 @@ const EQUIPAMENTOS = {
     {
       "marcador": "07",
       "nome": "07 - Metso CBS",
-      "data": "28/10/2026",
+      "data": "03/11/2026",
       "tipo": "Peneira",
       "tipoEstagio": "Peneira · Final",
       "desativado": false,
       "deck1": "18",
-      "deck2": "10",
+      "deck2": "14",
       "deck3": "5",
       "abertura": "-",
       "velocidade": "-",
@@ -611,6 +611,20 @@ const HISTORICO = {
     }
   ],
   "07 - Metso CBS": [
+    {
+      "marcador": "07",
+      "nome": "07 - Metso CBS",
+      "data": "03/11/2026",
+      "tipo": "Peneira",
+      "tipoEstagio": "Peneira · Final",
+      "desativado": false,
+      "deck1": "18",
+      "deck2": "14",
+      "deck3": "5",
+      "abertura": "-",
+      "velocidade": "-",
+      "configuracao": "-"
+    },
     {
       "marcador": "07",
       "nome": "07 - Metso CBS",
